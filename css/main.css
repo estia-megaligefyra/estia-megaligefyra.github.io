@@ -1,25 +1,40 @@
 body{
   margin: 0 auto;
   background-image: url("main.jpg");
- /* background-color: rgb(87,160,211,0.7);*/
- /* background-color: #e8ffff;*/
   background-repeat: no-repeat;
-  background-size: 100% 1080px;
-}
-
-p[name=title]{
-  font-family: sans-serif;
-  font-size: 30px;
-  color: rgb(87,160,211,0.9);
-  background-color:#e8ffff;
-  text-align: center;
-  margin-top:100px;
+  background-size: 100% 1000px;
 
 }
-
 div[name=side]{
   position: relative;
-  width:100%;
-  height:100%;
-  border:1px solid #000;
+  width:10%;
+  height: 100%;
+  top:0px;
+  margin-right: 0px;
+  position: absolute;
+  background-color:rgba(11,102,80,0.6);
+
 }
+p{
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+  background-color:rgba(11,102,80,0.6);
+  text-align: center;
+  margin-left:10%;
+
+}
+p[name=title]{
+  margin-top:80px;
+  margin-bottom: 0px;
+}
+p[name=title2]{
+  margin-top:5px;
+}
+audio{
+  top:0px;
+  margin-left:1500px;
+ 
+}
+
+
