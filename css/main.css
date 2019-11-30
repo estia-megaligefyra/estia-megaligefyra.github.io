@@ -8,8 +8,9 @@ body{
 div[name=side]{
   position: relative;
   width:10%;
-  height: 100%;
+  height: 920px;
   top:0px;
+  left:0px;
   margin-right: 0px;
   position: absolute;
   background-color:rgba(11,102,80,0.6);
@@ -25,7 +26,7 @@ p{
 
 }
 p[name=title]{
-  margin-top:80px;
+  margin-top:20px;
   margin-bottom: 0px;
 }
 p[name=title2]{
@@ -33,8 +34,45 @@ p[name=title2]{
 }
 audio{
   top:0px;
-  margin-left:1500px;
- 
+  margin-left:1630px;
+}
+
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  height:100%;
+  font-family: sans-serif;
+  border-left: 5px solid rgba(255,170,170,0.3);
+  transition:0.5s;
+  margin-left: -50px;
+  overflow: hidden;
+  position: relative;
+
+
+
+
+}
+li a {
+  margin-top: 50px;
+  display:block;
+  text-decoration: none;
+  color: rgb(153, 55, 51);  
+  padding: 14px 16px;
+
+
+
+}
+li{
+  text-align: center;
+   margin-top: 10px;
+}
+
+
+li:hover {
+  background-color:  rgba(255,170,170,0.3);
+  box-shadow:  0 0 0 5px rgba(255,170,170,0.3);
+  transition:0.3s;
 }
 
 
