@@ -1,7 +1,7 @@
 body{
   margin: 0 auto;
-  /*background-image: url("main.jpg");*/
-  background-color: rgb(87,160,211,0.7);
+  background-image: url("main.jpg");
+ /* background-color: rgb(87,160,211,0.7);*/
  /* background-color: #e8ffff;*/
   background-repeat: no-repeat;
   background-size: 100% 1080px;
