@@ -7,7 +7,6 @@ body{
 }
 div[name=side]{
   position: relative;
-  width:10%;
   height: 920px;
   top:0px;
   left:0px;
